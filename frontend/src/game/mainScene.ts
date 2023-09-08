@@ -4,7 +4,7 @@ import Vector2 = Phaser.Math.Vector2;
 
 let iceServers = {iceServers: [{urls: "stun:stun.l.google.com:19302"}]};
 
-const socket = io("http://localhost:3000");
+const socket = io("https://port-0-hammer-pong-3dwio2llk6btdcg.sel4.cloudtype.app/");
 const room = new URLSearchParams(window.location.search).get("room");
 
 let peerConnection!: RTCPeerConnection;
