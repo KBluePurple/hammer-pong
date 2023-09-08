@@ -1,7 +1,6 @@
 import * as Phaser from 'phaser';
 import {io} from "socket.io-client";
 import Vector2 = Phaser.Math.Vector2;
-import SetCollisionFromCollisionGroup = Phaser.Tilemaps.Components.SetCollisionFromCollisionGroup;
 
 let iceServers = {iceServers: [{urls: "stun:stun.l.google.com:19302"}]};
 
